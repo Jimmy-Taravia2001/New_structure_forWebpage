@@ -1,0 +1,77 @@
+header {
+    position: fixed;
+}
+
+body {
+    background-color: #333646;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1 {
+    color: floralwhite;
+}
+
+nav {
+    background-color: #FFC25C;   
+}
+
+.main-nav {
+    background-color: #FFC25C;
+    list-style: none;
+    margin: 0;
+    font-size: 22px;
+    /*padding: 0px 0px 0px 0px;*/
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row; /*default direction is row that's why if we remove this there is minor effect*/
+    padding: 35px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 10px; 
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #252734;
+    padding: 20px;   
+}
+
+
+li :hover {
+    background-color: #252734;
+    border-radius: 10px;
+    color: #FFC25C;  
+    transition: 0.8s;
+    padding: 17px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+
+}
+
+.container1 {
+    background-color: black;
+    height: 65%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 2em;
+}
+
+.container1 div {
+    padding: 0em 2em 0em;
+    color: white;
+    font-size: 27px;
+}
+
